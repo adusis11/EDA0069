@@ -1,21 +1,3 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="1" inline="false" x="-5" y="-35">
-    <field name="MODE">UNTIL</field>
-    <statement name="DO">
-      <block type="robot_delay" id="2" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="3">
-            <field name="NUM">2000</field>
-          </block>
-        </value>
-        <next>
-          <block type="movement_forward" id="4">
-            <next>
-              <block type="movement_stop" id="16"></block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
-  </block>
+  <block type="movement_forward" id="26" x="41" y="-16"></block>
 </xml>
