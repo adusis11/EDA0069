@@ -9,12 +9,13 @@
           </block>
         </value>
         <next>
-          <block type="movement_forward" id="10"></block>
+          <block type="movement_forward" id="10">
+            <next>
+              <block type="movement_stop" id="28"></block>
+            </next>
+          </block>
         </next>
       </block>
     </statement>
-    <next>
-      <block type="movement_stop" id="28"></block>
-    </next>
   </block>
 </xml>
