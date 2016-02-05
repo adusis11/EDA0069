@@ -11,14 +11,15 @@
         <next>
           <block type="movement_forward" id="54">
             <next>
-              <block type="movement_forward" id="64"></block>
+              <block type="movement_forward" id="64">
+                <next>
+                  <block type="movement_stop" id="74"></block>
+                </next>
+              </block>
             </next>
           </block>
         </next>
       </block>
     </statement>
-    <next>
-      <block type="movement_stop" id="74"></block>
-    </next>
   </block>
 </xml>
